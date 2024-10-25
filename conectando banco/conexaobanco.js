@@ -8,6 +8,6 @@ var conecteBanco = mysql.createConnection({
     password:"123456",
     database: "escola"
 });
-// exportando modulo
+// exportando modulo pra onde a gente quiser 
 module.exports = conecteBanco;
 
